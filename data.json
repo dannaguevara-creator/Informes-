@@ -1,0 +1,426 @@
+{
+  "generatedAt": "2026-04-23T21:30:45.800Z",
+  "snapshotTime": "3:30 PM",
+  "totalConvsScanned": 1308,
+  "totalClosedE": 17,
+  "totalClosedF": 56,
+  "inboxes": [
+    {
+      "name": "Apolo: Squad PC & FACT",
+      "displayName": "Apolo: Squad PC & FACT",
+      "priority": false,
+      "teamId": 9355465,
+      "teamName": "Apolo: Squad PC & FACT",
+      "total": 109,
+      "openTotal": 26,
+      "snoozedTotal": 83,
+      "groups": {
+        "A": 0,
+        "B": 26,
+        "C": 0,
+        "D": 83,
+        "H": 37
+      },
+      "baseline": {
+        "A": 0,
+        "B": 26,
+        "C": 0,
+        "D": 100,
+        "H": 61
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "Concorde - Cobros IGIC MKT",
+      "displayName": "Concorde - Cobros IGIC MKT",
+      "priority": false,
+      "teamId": "9245333",
+      "teamName": "CONCORDE - COBROS IGIC MKT",
+      "total": 4,
+      "openTotal": 4,
+      "snoozedTotal": 0,
+      "groups": {
+        "A": 4,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "baseline": {
+        "A": 3,
+        "B": 2,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 2
+    },
+    {
+      "name": "Concorde - Memorias no pagadas",
+      "displayName": "Concorde - Memorias no pagadas",
+      "priority": false,
+      "teamId": "9245549",
+      "teamName": "CONCORDE - MEMORIAS NO PAGADAS",
+      "total": 0,
+      "openTotal": 0,
+      "snoozedTotal": 0,
+      "groups": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "baseline": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "Concorde - Ratif Memorias",
+      "displayName": "Concorde - Ratif Memorias",
+      "priority": false,
+      "teamId": "9529001",
+      "teamName": "CONCORDE - RATIF MEMORIAS",
+      "total": 20,
+      "openTotal": 3,
+      "snoozedTotal": 17,
+      "groups": {
+        "A": 2,
+        "B": 1,
+        "C": 0,
+        "D": 17,
+        "H": 0
+      },
+      "baseline": {
+        "A": 0,
+        "B": 7,
+        "C": 0,
+        "D": 10,
+        "H": 2
+      },
+      "closedE": 0,
+      "closedF": 6
+    },
+    {
+      "name": "Concorde: Subsanación de memorias",
+      "displayName": "Concorde: Subsanación de memorias",
+      "priority": false,
+      "teamId": 9772162,
+      "teamName": "Concorde: Subsanación de memorias",
+      "total": 7,
+      "openTotal": 1,
+      "snoozedTotal": 6,
+      "groups": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 6,
+        "H": 1
+      },
+      "baseline": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 9,
+        "H": 1
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "CS: Squad RRSS",
+      "displayName": "CS: Squad RRSS",
+      "priority": false,
+      "teamId": "9568408",
+      "teamName": "CS: SQUAD RRSS",
+      "total": 150,
+      "openTotal": 50,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 2,
+        "B": 48,
+        "C": 0,
+        "D": 100,
+        "H": 0
+      },
+      "baseline": {
+        "A": 4,
+        "B": 45,
+        "C": 0,
+        "D": 100,
+        "H": 1
+      },
+      "closedE": 2,
+      "closedF": 0
+    },
+    {
+      "name": "CS: Squad SEO",
+      "displayName": "CS: Squad SEO",
+      "priority": false,
+      "teamId": "9568428",
+      "teamName": "CS: SQUAD SEO",
+      "total": 110,
+      "openTotal": 10,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 0,
+        "B": 10,
+        "C": 0,
+        "D": 100,
+        "H": 26
+      },
+      "baseline": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 100,
+        "H": 30
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "CS: Squad WEB",
+      "displayName": "CS: Squad WEB",
+      "priority": false,
+      "teamId": "9568401",
+      "teamName": "CS: SQUAD WEB",
+      "total": 200,
+      "openTotal": 100,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 5,
+        "B": 95,
+        "C": 0,
+        "D": 100,
+        "H": 0
+      },
+      "baseline": {
+        "A": 1,
+        "B": 99,
+        "C": 0,
+        "D": 100,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 4
+    },
+    {
+      "name": "Customer Satisfaction",
+      "displayName": "Customer Satisfaction",
+      "priority": false,
+      "teamId": "7941298",
+      "teamName": "CUSTOMER SATISFACTION",
+      "total": 176,
+      "openTotal": 76,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 1,
+        "B": 75,
+        "C": 0,
+        "D": 100,
+        "H": 49
+      },
+      "baseline": {
+        "A": 1,
+        "B": 72,
+        "C": 0,
+        "D": 100,
+        "H": 36
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "Doble financiación",
+      "displayName": "Doble financiación",
+      "priority": false,
+      "teamId": "10363740",
+      "teamName": "DOBLE FINANCIACIÓN",
+      "total": 12,
+      "openTotal": 12,
+      "snoozedTotal": 0,
+      "groups": {
+        "A": 0,
+        "B": 12,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "baseline": {
+        "A": 0,
+        "B": 12,
+        "C": 0,
+        "D": 0,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "Fenix - Estado Subvención",
+      "displayName": "Fenix - Estado Subvención",
+      "priority": false,
+      "teamId": "9562448",
+      "teamName": "FENIX - ESTADO SUBVENCIÓN",
+      "total": 88,
+      "openTotal": 20,
+      "snoozedTotal": 68,
+      "groups": {
+        "A": 0,
+        "B": 20,
+        "C": 0,
+        "D": 68,
+        "H": 24
+      },
+      "baseline": {
+        "A": 0,
+        "B": 26,
+        "C": 0,
+        "D": 56,
+        "H": 19
+      },
+      "closedE": 0,
+      "closedF": 6
+    },
+    {
+      "name": "Fenix - Ratif Subvenciones",
+      "displayName": "Fenix - Ratif Subvenciones",
+      "priority": false,
+      "teamId": "9245400",
+      "teamName": "FENIX - RATIF SUBVENCIONES",
+      "total": 26,
+      "openTotal": 10,
+      "snoozedTotal": 16,
+      "groups": {
+        "A": 0,
+        "B": 10,
+        "C": 0,
+        "D": 16,
+        "H": 5
+      },
+      "baseline": {
+        "A": 0,
+        "B": 11,
+        "C": 0,
+        "D": 40,
+        "H": 33
+      },
+      "closedE": 0,
+      "closedF": 1
+    },
+    {
+      "name": "Fenix - Subasanaciones",
+      "displayName": "Fenix - Subasanaciones",
+      "priority": false,
+      "teamId": 8770964,
+      "teamName": "Fenix - Subasanaciones",
+      "total": 11,
+      "openTotal": 3,
+      "snoozedTotal": 8,
+      "groups": {
+        "A": 0,
+        "B": 3,
+        "C": 0,
+        "D": 8,
+        "H": 0
+      },
+      "baseline": {
+        "A": 0,
+        "B": 9,
+        "C": 0,
+        "D": 5,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 6
+    },
+    {
+      "name": "Recepción",
+      "displayName": "Recepción (prioritaria)",
+      "priority": true,
+      "teamId": "10111639",
+      "teamName": "RECEPCIÓN",
+      "total": 21,
+      "openTotal": 1,
+      "snoozedTotal": 20,
+      "groups": {
+        "A": 1,
+        "B": 0,
+        "C": 18,
+        "D": 2,
+        "H": 11
+      },
+      "baseline": {
+        "A": 9,
+        "B": 0,
+        "C": 16,
+        "D": 11,
+        "H": 19
+      },
+      "closedE": 8,
+      "closedF": 0
+    },
+    {
+      "name": "Support",
+      "displayName": "Support (prioritaria)",
+      "priority": true,
+      "teamId": "10111649",
+      "teamName": "SUPPORT",
+      "total": 200,
+      "openTotal": 100,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 64,
+        "B": 36,
+        "C": 1,
+        "D": 99,
+        "H": 2
+      },
+      "baseline": {
+        "A": 71,
+        "B": 29,
+        "C": 0,
+        "D": 100,
+        "H": 1
+      },
+      "closedE": 7,
+      "closedF": 0
+    },
+    {
+      "name": "Titan - Firmas",
+      "displayName": "Titan - Firmas",
+      "priority": false,
+      "teamId": "9245536",
+      "teamName": "TITAN - FIRMAS",
+      "total": 174,
+      "openTotal": 74,
+      "snoozedTotal": 100,
+      "groups": {
+        "A": 9,
+        "B": 65,
+        "C": 0,
+        "D": 100,
+        "H": 16
+      },
+      "baseline": {
+        "A": 4,
+        "B": 96,
+        "C": 0,
+        "D": 100,
+        "H": 2
+      },
+      "closedE": 0,
+      "closedF": 31
+    }
+  ],
+  "unmapped": []
+}

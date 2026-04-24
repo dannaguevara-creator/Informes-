@@ -1,0 +1,11 @@
+{
+  "name": "intercom-report",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-data.js",
+    "report": "node generate-report.js",
+    "run": "node run.js",
+    "deploy": "node deploy.js"
+  }
+}

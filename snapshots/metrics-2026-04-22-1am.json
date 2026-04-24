@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-04-22T21:46:26.924Z",
+  "inboxMetrics": {
+    "Apolo: Squad PC & FACT": {
+      "A": 1,
+      "B": 32,
+      "C": 0,
+      "D": 100,
+      "H": 47
+    },
+    "Concorde - Cobros IGIC MKT": {
+      "A": 2,
+      "B": 0,
+      "C": 0,
+      "D": 2,
+      "H": 0
+    },
+    "Concorde - Memorias no pagadas": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "H": 0
+    },
+    "Concorde - Ratif Memorias": {
+      "A": 2,
+      "B": 4,
+      "C": 0,
+      "D": 8,
+      "H": 2
+    },
+    "Concorde: Subsanación de memorias": {
+      "A": 2,
+      "B": 0,
+      "C": 0,
+      "D": 7,
+      "H": 0
+    },
+    "CS: Squad RRSS": {
+      "A": 11,
+      "B": 48,
+      "C": 0,
+      "D": 100,
+      "H": 1
+    },
+    "CS: Squad SEO": {
+      "A": 2,
+      "B": 26,
+      "C": 0,
+      "D": 100,
+      "H": 20
+    },
+    "CS: Squad WEB": {
+      "A": 8,
+      "B": 92,
+      "C": 0,
+      "D": 100,
+      "H": 2
+    },
+    "Customer Satisfaction": {
+      "A": 1,
+      "B": 51,
+      "C": 0,
+      "D": 100,
+      "H": 32
+    },
+    "Doble financiación": {
+      "A": 0,
+      "B": 12,
+      "C": 0,
+      "D": 0,
+      "H": 0
+    },
+    "Fenix - Estado Subvención": {
+      "A": 0,
+      "B": 23,
+      "C": 0,
+      "D": 58,
+      "H": 16
+    },
+    "Fenix - Ratif Subvenciones": {
+      "A": 0,
+      "B": 19,
+      "C": 0,
+      "D": 56,
+      "H": 34
+    },
+    "Fenix - Subasanaciones": {
+      "A": 0,
+      "B": 7,
+      "C": 0,
+      "D": 7,
+      "H": 0
+    },
+    "Recepción": {
+      "A": 5,
+      "B": 0,
+      "C": 28,
+      "D": 34,
+      "H": 26
+    },
+    "Support": {
+      "A": 72,
+      "B": 28,
+      "C": 0,
+      "D": 100,
+      "H": 1
+    },
+    "Titan - Firmas": {
+      "A": 16,
+      "B": 78,
+      "C": 0,
+      "D": 100,
+      "H": 20
+    }
+  }
+}
