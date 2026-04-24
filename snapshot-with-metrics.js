@@ -52,10 +52,23 @@ const TARGET_INBOXES = [
   'Titan - Firmas',
 ];
 
-const TEAM_ID_OVERRIDES = {
+const TEAM_ID_MAP = {
   'Apolo: Squad PC & FACT': 9355465,
-  'Fenix - Subasanaciones': 8770964,
+  'Concorde - Cobros IGIC MKT': 9245333,
+  'Concorde - Memorias no pagadas': 9245549,
+  'Concorde - Ratif Memorias': 9529001,
   'Concorde: Subsanación de memorias': 9772162,
+  'CS: Squad RRSS': 9568408,
+  'CS: Squad SEO': 9568428,
+  'CS: Squad WEB': 9568401,
+  'Customer Satisfaction': 7941298,
+  'Doble financiación': 10363740,
+  'Fenix - Estado Subvención': 9562448,
+  'Fenix - Ratif Subvenciones': 9245400,
+  'Fenix - Subasanaciones': 8770964,
+  'Recepción': 10111639,
+  'Support': 10111649,
+  'Titan - Firmas': 9245536,
 };
 
 async function apiPost(path, body) {
@@ -121,9 +134,8 @@ async function getConversations(teamId, state) {
 }
 
 async function main() {
-  const teams = await getAllTeams();
   console.log(`\n1️⃣  SNAPSHOT 1:00 AM - Tomar foto de métricas`);
-  console.log(`Found ${teams.length} teams\n`);
+  console.log(`Using ${Object.keys(TEAM_ID_MAP).length} teams from configuration\n`);
 
   const snapshot = {
     timestamp: new Date().toISOString(),
@@ -133,21 +145,17 @@ async function main() {
   const allConversations = [];
 
   for (const inboxName of TARGET_INBOXES) {
-    let team = matchTeam(teams, inboxName);
-    if (!team && TEAM_ID_OVERRIDES[inboxName]) {
-      team = teams.find(t => t.id === TEAM_ID_OVERRIDES[inboxName]) ||
-             { id: TEAM_ID_OVERRIDES[inboxName], name: inboxName };
-    }
+    const teamId = TEAM_ID_MAP[inboxName];
 
-    if (!team) {
-      console.log(`  SKIP: "${inboxName}"`);
+    if (!teamId) {
+      console.log(`  SKIP: "${inboxName}" (ID not configured)`);
       snapshot.inboxMetrics[inboxName] = { A: 0, B: 0, C: 0, D: 0, H: 0 };
       continue;
     }
 
     process.stdout.write(`  ${inboxName}... `);
-    const openConvos = await getConversations(team.id, 'open');
-    const snoozedConvos = await getConversations(team.id, 'snoozed');
+    const openConvos = await getConversations(teamId, 'open');
+    const snoozedConvos = await getConversations(teamId, 'snoozed');
     const allConvos = [...openConvos, ...snoozedConvos];
 
     allConversations.push(...allConvos);

@@ -54,10 +54,23 @@ const TARGET_INBOXES = [
   'Titan - Firmas',
 ];
 
-const TEAM_ID_OVERRIDES = {
+const TEAM_ID_MAP = {
   'Apolo: Squad PC & FACT': 9355465,
-  'Fenix - Subasanaciones': 8770964,
+  'Concorde - Cobros IGIC MKT': 9245333,
+  'Concorde - Memorias no pagadas': 9245549,
+  'Concorde - Ratif Memorias': 9529001,
   'Concorde: Subsanación de memorias': 9772162,
+  'CS: Squad RRSS': 9568408,
+  'CS: Squad SEO': 9568428,
+  'CS: Squad WEB': 9568401,
+  'Customer Satisfaction': 7941298,
+  'Doble financiación': 10363740,
+  'Fenix - Estado Subvención': 9562448,
+  'Fenix - Ratif Subvenciones': 9245400,
+  'Fenix - Subasanaciones': 8770964,
+  'Recepción': 10111639,
+  'Support': 10111649,
+  'Titan - Firmas': 9245536,
 };
 
 const PRIORITY_INBOXES = new Set(['Recepción', 'Support']);
@@ -150,28 +163,23 @@ async function main() {
     process.exit(1);
   }
 
-  const teams = await getAllTeams();
-  console.log(`Found ${teams.length} teams\n`);
+  console.log(`Using ${Object.keys(TEAM_ID_MAP).length} teams from configuration\n`);
 
   const results = [];
   let totalClosedE = 0, totalClosedF = 0;
 
   for (const inboxName of TARGET_INBOXES) {
-    let team = matchTeam(teams, inboxName);
-    if (!team && TEAM_ID_OVERRIDES[inboxName]) {
-      team = teams.find(t => t.id === TEAM_ID_OVERRIDES[inboxName]) ||
-             { id: TEAM_ID_OVERRIDES[inboxName], name: inboxName };
-    }
+    const teamId = TEAM_ID_MAP[inboxName];
 
-    if (!team) {
-      console.log(`SKIP: "${inboxName}" (not found)`);
+    if (!teamId) {
+      console.log(`SKIP: "${inboxName}" (ID not configured)`);
       const baseline = baselineMetrics[inboxName] || { A: 0, B: 0, C: 0, D: 0, H: 0 };
       results.push({
         name: inboxName,
         displayName: PRIORITY_INBOXES.has(inboxName) ? inboxName + ' (prioritaria)' : inboxName,
         priority: PRIORITY_INBOXES.has(inboxName),
         teamId: null,
-        error: 'Team not found',
+        error: 'Team ID not configured',
         total: 0,
         groups: { A: 0, B: 0, C: 0, D: 0, H: 0 },
         baseline,
@@ -183,8 +191,8 @@ async function main() {
 
     process.stdout.write(`  ${inboxName}... `);
 
-    const openConvos = await getConversations(team.id, 'open');
-    const snoozedConvos = await getConversations(team.id, 'snoozed');
+    const openConvos = await getConversations(teamId, 'open');
+    const snoozedConvos = await getConversations(teamId, 'snoozed');
     const allConvos = [...openConvos, ...snoozedConvos];
 
     const now = Date.now() / 1000;
@@ -221,8 +229,8 @@ async function main() {
       name: inboxName,
       displayName: PRIORITY_INBOXES.has(inboxName) ? inboxName + ' (prioritaria)' : inboxName,
       priority: PRIORITY_INBOXES.has(inboxName),
-      teamId: team.id,
-      teamName: team.name,
+      teamId,
+      teamName: inboxName,
       total: allConvos.length,
       openTotal: openConvos.length,
       snoozedTotal: snoozedConvos.length,
