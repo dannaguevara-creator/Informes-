@@ -34,7 +34,7 @@ const totalF = data.totalClosedF || 0;
 const totalH = data.inboxes.reduce((s, i) => s + (i.groups?.H || 0), 0);
 
 function inboxCard(inbox) {
-  const { displayName, priority, total, openTotal = 0, snoozedTotal = 0, groups = {}, closedE = 0, closedF = 0, error } = inbox;
+  const { displayName, priority, total, openTotal = 0, snoozedTotal = 0, groups = {}, closedE = 0, closedF = 0, baseline = {}, error } = inbox;
   const A = groups.A || 0;
   const B = groups.B || 0;
   const C = groups.C || 0;
@@ -51,8 +51,9 @@ function inboxCard(inbox) {
   const barC = total ? Math.round((C / total) * 100) : 0;
   const barD = total ? Math.round((D / total) * 100) : 0;
 
-  const closedE_pct = (A + B) > 0 ? Math.round((closedE / (A + B)) * 100) : 0;
-  const closedF_pct = (C + D) > 0 ? Math.round((closedF / (C + D)) * 100) : 0;
+  // Porcentajes de E y F basados en baseline (foto de 1:00 AM)
+  const closedE_pct = baseline.A > 0 ? Math.round((closedE / baseline.A) * 100) : 0;
+  const closedF_pct = baseline.B > 0 ? Math.round((closedF / baseline.B) * 100) : 0;
   const H_pct = snoozedTotal > 0 ? Math.round((H / snoozedTotal) * 100) : 0;
 
   return `
