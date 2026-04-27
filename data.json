@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-23T21:30:45.800Z",
+  "generatedAt": "2026-04-27T13:27:25.562Z",
   "snapshotTime": "3:30 PM",
-  "totalConvsScanned": 1308,
-  "totalClosedE": 17,
-  "totalClosedF": 56,
+  "totalConvsScanned": 1141,
+  "totalClosedE": 10,
+  "totalClosedF": 7,
   "inboxes": [
     {
       "name": "Apolo: Squad PC & FACT",
@@ -11,73 +11,73 @@
       "priority": false,
       "teamId": 9355465,
       "teamName": "Apolo: Squad PC & FACT",
-      "total": 109,
-      "openTotal": 26,
-      "snoozedTotal": 83,
+      "total": 63,
+      "openTotal": 21,
+      "snoozedTotal": 42,
       "groups": {
-        "A": 0,
-        "B": 26,
+        "A": 2,
+        "B": 19,
         "C": 0,
-        "D": 83,
-        "H": 37
+        "D": 42,
+        "H": 25
       },
       "baseline": {
-        "A": 0,
-        "B": 26,
+        "A": 2,
+        "B": 21,
         "C": 0,
-        "D": 100,
-        "H": 61
-      },
-      "closedE": 0,
-      "closedF": 0
-    },
-    {
-      "name": "Concorde - Cobros IGIC MKT",
-      "displayName": "Concorde - Cobros IGIC MKT",
-      "priority": false,
-      "teamId": "9245333",
-      "teamName": "CONCORDE - COBROS IGIC MKT",
-      "total": 4,
-      "openTotal": 4,
-      "snoozedTotal": 0,
-      "groups": {
-        "A": 4,
-        "B": 0,
-        "C": 0,
-        "D": 0,
-        "H": 0
-      },
-      "baseline": {
-        "A": 3,
-        "B": 2,
-        "C": 0,
-        "D": 0,
-        "H": 0
+        "D": 42,
+        "H": 25
       },
       "closedE": 0,
       "closedF": 2
     },
     {
-      "name": "Concorde - Memorias no pagadas",
-      "displayName": "Concorde - Memorias no pagadas",
+      "name": "Concorde - Cobros IGIC MKT",
+      "displayName": "Concorde - Cobros IGIC MKT",
       "priority": false,
-      "teamId": "9245549",
-      "teamName": "CONCORDE - MEMORIAS NO PAGADAS",
-      "total": 0,
-      "openTotal": 0,
+      "teamId": 9245333,
+      "teamName": "Concorde - Cobros IGIC MKT",
+      "total": 1,
+      "openTotal": 1,
       "snoozedTotal": 0,
       "groups": {
-        "A": 0,
+        "A": 1,
         "B": 0,
         "C": 0,
         "D": 0,
         "H": 0
       },
       "baseline": {
-        "A": 0,
+        "A": 1,
         "B": 0,
         "C": 0,
         "D": 0,
+        "H": 0
+      },
+      "closedE": 0,
+      "closedF": 0
+    },
+    {
+      "name": "Concorde - Memorias no pagadas",
+      "displayName": "Concorde - Memorias no pagadas",
+      "priority": false,
+      "teamId": 9245549,
+      "teamName": "Concorde - Memorias no pagadas",
+      "total": 3,
+      "openTotal": 0,
+      "snoozedTotal": 3,
+      "groups": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 3,
+        "H": 0
+      },
+      "baseline": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 3,
         "H": 0
       },
       "closedE": 0,
@@ -87,27 +87,27 @@
       "name": "Concorde - Ratif Memorias",
       "displayName": "Concorde - Ratif Memorias",
       "priority": false,
-      "teamId": "9529001",
-      "teamName": "CONCORDE - RATIF MEMORIAS",
-      "total": 20,
-      "openTotal": 3,
-      "snoozedTotal": 17,
+      "teamId": 9529001,
+      "teamName": "Concorde - Ratif Memorias",
+      "total": 12,
+      "openTotal": 11,
+      "snoozedTotal": 1,
       "groups": {
-        "A": 2,
-        "B": 1,
+        "A": 0,
+        "B": 11,
         "C": 0,
-        "D": 17,
-        "H": 0
+        "D": 1,
+        "H": 1
       },
       "baseline": {
         "A": 0,
-        "B": 7,
+        "B": 10,
         "C": 0,
-        "D": 10,
-        "H": 2
+        "D": 1,
+        "H": 1
       },
       "closedE": 0,
-      "closedF": 6
+      "closedF": 0
     },
     {
       "name": "Concorde: Subsanación de memorias",
@@ -115,21 +115,21 @@
       "priority": false,
       "teamId": 9772162,
       "teamName": "Concorde: Subsanación de memorias",
-      "total": 7,
+      "total": 4,
       "openTotal": 1,
-      "snoozedTotal": 6,
+      "snoozedTotal": 3,
       "groups": {
         "A": 0,
         "B": 1,
         "C": 0,
-        "D": 6,
+        "D": 3,
         "H": 1
       },
       "baseline": {
         "A": 0,
         "B": 1,
         "C": 0,
-        "D": 9,
+        "D": 3,
         "H": 1
       },
       "closedE": 0,
@@ -139,50 +139,50 @@
       "name": "CS: Squad RRSS",
       "displayName": "CS: Squad RRSS",
       "priority": false,
-      "teamId": "9568408",
-      "teamName": "CS: SQUAD RRSS",
-      "total": 150,
-      "openTotal": 50,
-      "snoozedTotal": 100,
+      "teamId": 9568408,
+      "teamName": "CS: Squad RRSS",
+      "total": 97,
+      "openTotal": 34,
+      "snoozedTotal": 63,
       "groups": {
-        "A": 2,
-        "B": 48,
+        "A": 0,
+        "B": 34,
         "C": 0,
-        "D": 100,
-        "H": 0
+        "D": 63,
+        "H": 2
       },
       "baseline": {
-        "A": 4,
-        "B": 45,
+        "A": 0,
+        "B": 33,
         "C": 0,
-        "D": 100,
-        "H": 1
+        "D": 64,
+        "H": 2
       },
-      "closedE": 2,
+      "closedE": 0,
       "closedF": 0
     },
     {
       "name": "CS: Squad SEO",
       "displayName": "CS: Squad SEO",
       "priority": false,
-      "teamId": "9568428",
-      "teamName": "CS: SQUAD SEO",
-      "total": 110,
-      "openTotal": 10,
-      "snoozedTotal": 100,
+      "teamId": 9568428,
+      "teamName": "CS: Squad SEO",
+      "total": 71,
+      "openTotal": 8,
+      "snoozedTotal": 63,
       "groups": {
         "A": 0,
-        "B": 10,
+        "B": 8,
         "C": 0,
-        "D": 100,
-        "H": 26
+        "D": 63,
+        "H": 1
       },
       "baseline": {
         "A": 0,
-        "B": 1,
+        "B": 5,
         "C": 0,
-        "D": 100,
-        "H": 30
+        "D": 65,
+        "H": 1
       },
       "closedE": 0,
       "closedF": 0
@@ -191,50 +191,50 @@
       "name": "CS: Squad WEB",
       "displayName": "CS: Squad WEB",
       "priority": false,
-      "teamId": "9568401",
-      "teamName": "CS: SQUAD WEB",
+      "teamId": 9568401,
+      "teamName": "CS: Squad WEB",
       "total": 200,
       "openTotal": 100,
       "snoozedTotal": 100,
       "groups": {
-        "A": 5,
-        "B": 95,
+        "A": 0,
+        "B": 99,
         "C": 0,
-        "D": 100,
+        "D": 101,
         "H": 0
       },
       "baseline": {
-        "A": 1,
-        "B": 99,
+        "A": 0,
+        "B": 100,
         "C": 0,
         "D": 100,
         "H": 0
       },
       "closedE": 0,
-      "closedF": 4
+      "closedF": 1
     },
     {
       "name": "Customer Satisfaction",
       "displayName": "Customer Satisfaction",
       "priority": false,
-      "teamId": "7941298",
-      "teamName": "CUSTOMER SATISFACTION",
-      "total": 176,
-      "openTotal": 76,
+      "teamId": 7941298,
+      "teamName": "Customer Satisfaction",
+      "total": 183,
+      "openTotal": 83,
       "snoozedTotal": 100,
       "groups": {
         "A": 1,
-        "B": 75,
+        "B": 82,
         "C": 0,
         "D": 100,
-        "H": 49
+        "H": 91
       },
       "baseline": {
         "A": 1,
-        "B": 72,
+        "B": 80,
         "C": 0,
         "D": 100,
-        "H": 36
+        "H": 91
       },
       "closedE": 0,
       "closedF": 0
@@ -243,21 +243,21 @@
       "name": "Doble financiación",
       "displayName": "Doble financiación",
       "priority": false,
-      "teamId": "10363740",
-      "teamName": "DOBLE FINANCIACIÓN",
-      "total": 12,
-      "openTotal": 12,
+      "teamId": 10363740,
+      "teamName": "Doble financiación",
+      "total": 11,
+      "openTotal": 11,
       "snoozedTotal": 0,
       "groups": {
         "A": 0,
-        "B": 12,
+        "B": 11,
         "C": 0,
         "D": 0,
         "H": 0
       },
       "baseline": {
         "A": 0,
-        "B": 12,
+        "B": 11,
         "C": 0,
         "D": 0,
         "H": 0
@@ -269,53 +269,53 @@
       "name": "Fenix - Estado Subvención",
       "displayName": "Fenix - Estado Subvención",
       "priority": false,
-      "teamId": "9562448",
-      "teamName": "FENIX - ESTADO SUBVENCIÓN",
-      "total": 88,
-      "openTotal": 20,
-      "snoozedTotal": 68,
+      "teamId": 9562448,
+      "teamName": "Fenix - Estado Subvención",
+      "total": 86,
+      "openTotal": 36,
+      "snoozedTotal": 50,
       "groups": {
         "A": 0,
-        "B": 20,
+        "B": 36,
         "C": 0,
-        "D": 68,
-        "H": 24
+        "D": 50,
+        "H": 47
       },
       "baseline": {
         "A": 0,
-        "B": 26,
+        "B": 35,
         "C": 0,
-        "D": 56,
-        "H": 19
+        "D": 50,
+        "H": 47
       },
       "closedE": 0,
-      "closedF": 6
+      "closedF": 0
     },
     {
       "name": "Fenix - Ratif Subvenciones",
       "displayName": "Fenix - Ratif Subvenciones",
       "priority": false,
-      "teamId": "9245400",
-      "teamName": "FENIX - RATIF SUBVENCIONES",
-      "total": 26,
-      "openTotal": 10,
-      "snoozedTotal": 16,
+      "teamId": 9245400,
+      "teamName": "Fenix - Ratif Subvenciones",
+      "total": 24,
+      "openTotal": 6,
+      "snoozedTotal": 18,
       "groups": {
         "A": 0,
-        "B": 10,
+        "B": 6,
         "C": 0,
-        "D": 16,
-        "H": 5
+        "D": 18,
+        "H": 0
       },
       "baseline": {
         "A": 0,
-        "B": 11,
+        "B": 6,
         "C": 0,
-        "D": 40,
-        "H": 33
+        "D": 18,
+        "H": 0
       },
       "closedE": 0,
-      "closedF": 1
+      "closedF": 0
     },
     {
       "name": "Fenix - Subasanaciones",
@@ -323,103 +323,103 @@
       "priority": false,
       "teamId": 8770964,
       "teamName": "Fenix - Subasanaciones",
-      "total": 11,
-      "openTotal": 3,
-      "snoozedTotal": 8,
+      "total": 29,
+      "openTotal": 27,
+      "snoozedTotal": 2,
       "groups": {
         "A": 0,
-        "B": 3,
+        "B": 27,
         "C": 0,
-        "D": 8,
-        "H": 0
+        "D": 2,
+        "H": 1
       },
       "baseline": {
         "A": 0,
-        "B": 9,
+        "B": 26,
         "C": 0,
-        "D": 5,
-        "H": 0
+        "D": 2,
+        "H": 1
       },
       "closedE": 0,
-      "closedF": 6
+      "closedF": 0
     },
     {
       "name": "Recepción",
       "displayName": "Recepción (prioritaria)",
       "priority": true,
-      "teamId": "10111639",
-      "teamName": "RECEPCIÓN",
-      "total": 21,
-      "openTotal": 1,
-      "snoozedTotal": 20,
+      "teamId": 10111639,
+      "teamName": "Recepción",
+      "total": 26,
+      "openTotal": 20,
+      "snoozedTotal": 6,
       "groups": {
-        "A": 1,
+        "A": 20,
         "B": 0,
-        "C": 18,
-        "D": 2,
-        "H": 11
+        "C": 5,
+        "D": 1,
+        "H": 0
       },
       "baseline": {
-        "A": 9,
+        "A": 20,
         "B": 0,
-        "C": 16,
-        "D": 11,
-        "H": 19
+        "C": 5,
+        "D": 1,
+        "H": 0
       },
-      "closedE": 8,
+      "closedE": 0,
       "closedF": 0
     },
     {
       "name": "Support",
       "displayName": "Support (prioritaria)",
       "priority": true,
-      "teamId": "10111649",
-      "teamName": "SUPPORT",
+      "teamId": 10111649,
+      "teamName": "Support",
       "total": 200,
       "openTotal": 100,
       "snoozedTotal": 100,
       "groups": {
-        "A": 64,
-        "B": 36,
+        "A": 68,
+        "B": 32,
         "C": 1,
         "D": 99,
-        "H": 2
+        "H": 5
       },
       "baseline": {
-        "A": 71,
-        "B": 29,
-        "C": 0,
-        "D": 100,
-        "H": 1
+        "A": 78,
+        "B": 23,
+        "C": 1,
+        "D": 98,
+        "H": 5
       },
-      "closedE": 7,
+      "closedE": 10,
       "closedF": 0
     },
     {
       "name": "Titan - Firmas",
       "displayName": "Titan - Firmas",
       "priority": false,
-      "teamId": "9245536",
-      "teamName": "TITAN - FIRMAS",
-      "total": 174,
-      "openTotal": 74,
-      "snoozedTotal": 100,
+      "teamId": 9245536,
+      "teamName": "Titan - Firmas",
+      "total": 131,
+      "openTotal": 100,
+      "snoozedTotal": 31,
       "groups": {
-        "A": 9,
-        "B": 65,
+        "A": 5,
+        "B": 95,
         "C": 0,
-        "D": 100,
-        "H": 16
+        "D": 31,
+        "H": 15
       },
       "baseline": {
-        "A": 4,
-        "B": 96,
+        "A": 1,
+        "B": 99,
         "C": 0,
-        "D": 100,
-        "H": 2
+        "D": 30,
+        "H": 15
       },
       "closedE": 0,
-      "closedF": 31
+      "closedF": 4
     }
   ],
   "unmapped": []

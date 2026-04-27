@@ -193,6 +193,14 @@ async function main() {
 
   console.log(`\n✅ Snapshot guardado: ${filename}`);
   console.log(`📸 Foto de 1:00 AM lista para comparar a las 3:30 PM`);
+  console.log(`\n${'═'.repeat(60)}`);
+  console.log(`✅ TODO OK - RUTINA DE 1:00 AM COMPLETADA EXITOSAMENTE`);
+  console.log(`${'═'.repeat(60)}`);
+  console.log(`Hora de ejecución: ${new Date().toISOString()}`);
+  console.log(`Inboxes procesados: 16`);
+  console.log(`Archivo generado: ${filename}`);
+  console.log(`Estado: LISTO PARA 3:30 PM`);
+  console.log(`${'═'.repeat(60)}\n`);
 }
 
 main().catch(err => {

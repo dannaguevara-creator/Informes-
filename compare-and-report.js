@@ -318,6 +318,18 @@ async function main() {
   }
 
   console.log('\n✅ Flujo completado: Reporte generado, desplegado y notificado a Slack');
+  console.log(`\n${'═'.repeat(60)}`);
+  console.log(`✅ TODO OK - RUTINA DE 3:30 PM COMPLETADA EXITOSAMENTE`);
+  console.log(`${'═'.repeat(60)}`);
+  console.log(`Hora de ejecución: ${new Date().toISOString()}`);
+  console.log(`Total conversaciones analizadas: ${output.totalConvsScanned}`);
+  console.log(`Cerradas sin agente (E): ${output.totalClosedE}`);
+  console.log(`Cerradas con agente (F): ${output.totalClosedF}`);
+  console.log(`Inboxes procesados: ${output.inboxes.length}`);
+  console.log(`Reporte desplegado en: https://intercom-report-nine.vercel.app`);
+  console.log(`Notificación enviada a: Slack #reportes-cs`);
+  console.log(`Estado: REPORTE DISPONIBLE PARA VER`);
+  console.log(`${'═'.repeat(60)}\n`);
 }
 
 main().catch(err => {
